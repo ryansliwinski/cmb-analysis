@@ -7,7 +7,7 @@ To better understand each aspect of this project, I've done research on the cosm
 ## What is the cosmic microwave background?
 The cosmic microwave background (CMB) is the oldest detectable light in the universe. It is a near uniform glow of blackbody thermal radiation, which is detectable from all directions. It dates back to around 380,000 years after the Big Bang, when the universe first became transparent.
 
-![CMB Image](https://upload.wikimedia.org/wikipedia/commons/e/ed/WMAP_2012.png)
+![CMB Map](images/cmbMap.png)
 
 ## Timeline Pre-CMB
 
@@ -25,11 +25,35 @@ The CMB was first discovered in 1964 by Arno Penzias and Robert Wilson. They det
 ## CMB Data Collection Missions
 
 ### Cosmic Background Explorer (COBE)
+Launched by NASA in November 1989, the Cosmic Background Explorer (COBE) was the first satellite dedicated to precice measurements of the CMB. It carried three instruments: the Far-Infrared Absolute Spectrophotometer (FIRAS), the Differential Microwave Radiometer (DMR), and the Diffuse Infrared Background Experiment (DIRBE).
+
+![Cosmic Background Explorer](images/cosmicBackgroundExplorer.webp)
+
+The DMR used three different radiometers to map the sky at 31.4, 53, and 90 GHz. It was primaraly responsible for detecting anisotropies. 
+
+![CMB Map COBE](images/cobeCMB.png)
+
+DIRBE had a cryogenically cooled multiband radiometer for diffuse infrared radiation from 1 to 300 micrometers. This infrared background provided insight on early universe structure and galaxy formation. 
+
+FIRAS used a cryogenically cooled polarizing Michelson interferometer as a Fourier transform spectrometer. This instrument measured the CMB with precision and confirmed that it follows a near perfect blackbody curve at a temperature of 2.725K.
+
+![COBE Blackbody Curve](images/cobeBlackbodyCurve.png)
 
 ### Wilkinson Microwave Anistropy Probe (WMAP)
+Launched in June 2001, the Wilkinson Microwave Anistropy Probe (WMAP) was NASA's successor to COBE which was designed to map the CMB with much higher resolution. It observed five frequencies (22 to 90 GHz) with the goal to measure and subtract foreground contamination from the Milky Way and other galactic sources.
+
+![Wilkinson Microwave Anistropy Probe](images/wmap.png)
+
+The WMAP data was released after one year and every two years after that (up to nine years). The main results of the WMAP experiments were a higher resolution CMB sky map and an estimate of the age of the universe (13.8 billion years). WMAP also refined nearly all key parameters of the Lambda-CDM model.
 
 ### Planck Satellite 
+The Planck Satellite was launched by the European Space Agency in May 2009 and was the most advanced CMB mission. It mapped the CMB in nine frequency bands using the "High-Frequency Instrument" (HFI) which measured 100 - 857 GHz and the "Low-Frequency Instrument" (LFI) whcih measured 30 - 70 GHz.
 
+![Planck Satellite](images/planck.png)
+
+The data from the Planck mission was released in 2013, 2015, and most recently, 2018. The final data release in 2018 remains the gold standard for CMB studies. This satellite is responsible for the sharpest image of the CMB to date, refining WMAP's findings with five times better resolution, the most precise measuremens of cosmological paramaters such as the Hubble Constant (67.8 km/s/Mpc) and the age of the universe (13.82 billion years), and polarization data that further confirmed cosmic inflation.
+
+![CMB Map Comparison](images/mapCompare.jpg)
 
 ## Anisotrophies
 
@@ -39,8 +63,12 @@ Anisotropies are tiny temperature fluctuations in the CMB which are on the order
 ### The Cold Spot
 The cold spot is approximately 70 microkelvin cooler than the surrounding area and spans about 5 degrees. It was first detected by the Wilkinson Microwave Anisotropy Prope (WMAP). The probability of this cold spot existing is ~ 1.85%. Some believe it could be a large empty region of space which cooled photons as they passed through.
 
+![The Cold Spot](images/theColdSpot.jpg)
+
 ### Hawking Points
 Hawking points are a theoretical explination for circular patterns in the CMB caused by evaporating black holes from a previous cosmic cycle. These would be points of slightly higher temperature, but the evidence for them are highly controversial and aren't widely accepted.
+
+![Hawking Points](images/hawkingPoints.png)
 
 # Cleaning CMB Data
 thats the goal...
